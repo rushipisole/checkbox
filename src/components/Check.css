@@ -1,0 +1,89 @@
+ .top {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.background {
+    color: red;
+    background-color: #ffffff;
+    margin: 20px 200px 0 200px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.sr {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-select {
+    width: 244px !important;
+    margin-left: 420px;
+}
+
+.table1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table1 th,
+.table1 td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table1 th {
+    text-align: left;
+}
+
+.table2 {
+    width: 100%;
+    text-align: center;
+}
+
+select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.select-container {
+    margin-bottom: 10px;
+}
+
+tr {
+    background-color: #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.dropdown-cell {
+    padding-left: 10px;
+}
